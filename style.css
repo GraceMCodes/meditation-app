@@ -46,3 +46,11 @@ button {
 button:hover {
     background-color: #5750e2;
   }
+  #journaling {
+   margin-top: 20px;
+ }
+ 
+ #promptDisplay {
+   margin-top: 10px;
+   font-style: italic;
+ } */
