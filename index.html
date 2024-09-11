@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meditation App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Breathe</h1>
+      <nav>
+        <ul>
+          <li><a href="#affrimations">Affrimations</a></li>
+          <li><a href="#visualizations">Visualizations</a></li>
+          <li><a href="#lectures">Lectures</a></li>
+          <li><a href="#meditations">Meditations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="affrimations">
+      <h2>Daily Affrimations</h2>
+      <div id="affrimationDisplay"></div>
+      <button onclick="generateAffrimations()">New Affrimations</button>
+    </section>
+    <section id="Visualizations">
+      <h2>Visualizations videos</h2>
+      <ul id="visualizationList"></ul>
+    </section>
+    <section id="lectures">
+        <h2>lectures</h2>
+        <ul id="leacturesList"></ul>
+    </section>
+    <section id="meditation">
+        <h2>meditation Videos</h2>
+        <ul id="meditationList"></ul>
+      </section>
+    <section id="journaling">
+        <h2>Journaling Prompts</h2>
+        <div id="promptDisplay"></div>
+        <button onclick="generatePrompt()">New Journaling Prompt</button>
+      </section>
+      
+  </body>
+</html>
