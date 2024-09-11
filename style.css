@@ -1,0 +1,48 @@
+body {
+    font-family: Abhaya Libre
+    ,san-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    color: white;
+    text-align: center;
+    background-color: #6c63ff;
+    padding: 20px;
+  }
+  h1 {
+    margin: 0;
+ }
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+ nav ul li {
+    margin: 0 10px;
+ }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ section{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+ }
+button {
+    background-color: #6c63ff;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #5750e2;
+  }
